@@ -18,3 +18,5 @@ api:
   key: ${API_KEY}
 
 spring.autoconfigure.exclude: org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration
+
+server.port=${PORT:8080}
